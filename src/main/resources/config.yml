@@ -1,0 +1,65 @@
+# MineProgress 0.6.0 | Paper 1.21.11 | Java 21
+settings:
+  max-player-level: 100
+  player-xp-per-level: 100
+  player-xp-base: 100
+  player-xp-increase-per-level: 10
+  prestige-bonus-per-level: 0.005
+  pickaxe-prestige-money-bonus: 0.0025
+  player-level-money-bonus: 0.001
+  snapshot-limit: 250000
+  # Narzędzia: liczba poziomów przed ulepszeniem materiału.
+  max-pickaxe-level: 20
+  pickaxe-xp-base: 10
+  pickaxe-xp-increase-per-level: 2
+  max-shovel-level: 5
+  shovel-xp-base: 25
+  shovel-xp-increase-per-level: 10
+  max-axe-level: 5
+  axe-xp-base: 25
+  axe-xp-increase-per-level: 10
+pickaxe-progression:
+  efficiency-1: 1
+  efficiency-2: 2
+  efficiency-2-level: 4
+  efficiency-3: 3
+  efficiency-3-level: 8
+  efficiency-4: 4
+  efficiency-4-level: 12
+  efficiency-5: 5
+  efficiency-5-level: 16
+  fortune-1: 1
+  fortune-1-level: 8
+  fortune-2: 2
+  fortune-2-level: 12
+  fortune-3: 3
+  fortune-3-level: 16
+fortune:
+  bonus-chance-per-level: 0.02
+  double-drop-chance: 0.10
+mining-streak:
+  timeout-seconds: 10
+  blocks-per-step: 20
+  money-bonus-per-step: 0.005
+  max-bonus: 0.05
+# Ustawienia domyślne hologramów. Można nadpisywać linie osobno dla każdej kopalni.
+holograms:
+  height: 1.8
+  line-spacing: 0.27
+  default-lines:
+    - '&6Kopalnia: &e{name}'
+    - '&7Bloki: &f{blocks}'
+    - '&bOdnowienie: &f{regen}'
+visuals:
+  boundary-step: 2
+  hologram-refresh-ticks: 20
+tool-progression:
+  # 0 wyłącza dodatkową ostrość na siekierze; dodatnia wartość dodaje ją od poziomu 0.
+  axe-sharpness-per-level: 0
+ui:
+  title: '&8MineProgress'
+  accent: '&e'
+messages:
+  prefix: '&8[&6MineProgress&8] &r'
+  no-permission: '&cNie masz uprawnień.'
+  no-economy: '&cEkonomia nie jest dostępna. Skontaktuj się z administracją.'

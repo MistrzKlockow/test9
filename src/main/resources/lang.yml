@@ -1,0 +1,15 @@
+# MineProgress 0.8.0 — wiadomości edytowalne bez zmiany kodu.
+# Kolory Minecraft: &a, &b, &c, &d, &e, &f, &7, &8 itd.
+prefix: '&8[&bMine&fProgress&8] &r'
+prestige:
+  title: '&6✦ PRESTIŻ! &e✦'
+  subtitle: '&7Ukończono pełny obieg: &f{tool}'
+  broadcast: '&8✦ &e{player} &7osiągnął prestiż narzędzia: &b{tool}&7!'
+messages:
+  player-prestige: '&d✦ Prestiż gracza ukończony! &7Aktualny prestiż: &f{prestige} &8| &7Bonus zarobków został zwiększony.'
+  tool-prestige: '&d✦ Pełny obieg ukończony! &f{tool} &7— prestiż: &d{prestige}'
+  reset-warning: '&cUWAGA: reset usunie poziom, XP, materiał i prestiż narzędzia! Potwierdź w ciągu 30 sekund.'
+  no-permission: '&cTa funkcja jest dostępna tylko dla administracji.'
+# Zaawansowane nadpisywanie całych komunikatów: overrides.<hash>
+# Hash to Java String.hashCode() oryginalnej treści wiadomości, bez prefixu.
+overrides: {}

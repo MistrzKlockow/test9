@@ -1,0 +1,38 @@
+name: MineProgress
+version: 0.9.1
+main: pl.mineprogress.MineProgressPlugin
+api-version: '1.21.11'
+author: MineProgress
+softdepend: [Vault, PlaceholderAPI]
+commands:
+  mineadmin:
+    description: Panel administracyjny MineProgress
+    usage: /mineadmin help
+    permission: mineprogress.admin
+  mineprogress:
+    description: Nowoczesne menu MineProgress
+    usage: /mineprogress [placeholders]
+    aliases: [mp]
+  kopalnia:
+    description: Statystyki kopania
+  kilof:
+    description: Menu rozwoju i prestiżu kilofa
+    usage: /kilof [ulepsz]
+  lopata:
+    description: Menu rozwoju łopaty MineProgress
+    usage: /lopata
+  siekiera:
+    description: Menu rozwoju siekiery MineProgress
+    usage: /siekiera
+  schowaj:
+    description: Wirtualny schowek narzędzi MineProgress
+    usage: /schowaj
+  wyciagnij:
+    description: Wyciąga narzędzie ze schowka
+    usage: /wyciagnij <kilof|lopata|siekiera>
+  prestiz:
+    description: System prestiżu
+permissions:
+  mineprogress.admin:
+    description: Zarządzanie kopalniami MineProgress
+    default: op
